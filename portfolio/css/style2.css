@@ -1,0 +1,172 @@
+@charset "UTF-8";
+
+html {
+    font-size: 100%;
+}
+body {
+    color: #383e45;
+    font-size: 0.9rem;
+    font-family: "Helvetica Neue", "Arial", "Hiragino Sans", "Meiryo", sans-serif;
+}
+#mainvisual img {
+    max-width: 100%;
+}
+a {
+    color: #2b2a27;
+}
+#mainvisual img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center top;
+    margin-bottom: 80px;
+}
+.recipe {
+    width: 100%;
+    text-align: center;
+}
+.list {
+    display: flex;
+    margin-bottom: 60px;
+}
+.list li {
+    width: calc(100% / 3);
+    object-fit: cover;
+    list-style: none;
+}
+.list li img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    vertical-align: bottom;
+}
+.bottom {
+    width: 100%;
+    text-align: center;
+}
+.bottom a {
+    /* background-color: #68f8f8; */
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    padding: 20px 0;
+    /* border-radius: 10px; */
+    color: #000000;
+    /* font-weight: bold; */
+    margin-bottom: 60px;
+    /* -webkit-text-stroke: 0.5px #000000; */
+    text-decoration: none;
+    border: solid 1px #000000;
+}
+h1 {
+    margin-bottom: 20px;
+}
+.contents {
+    line-height: 1.5;
+    margin-bottom: 60px;
+}
+#footer ul {
+    display: flex;
+    width: 300px;
+    margin: 10px auto;
+    padding: 10px 10px;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 0.75rem;
+}
+#copyright {
+    margin: 0 auto 10px;
+    text-align:center;
+    font-size: 0.75rem;
+}
+.maine {
+    display: flex;
+    margin-bottom: 32px;
+}
+#cooking1{
+    flex-basis:50%;
+}
+.maine #cooking1 img {
+    object-fit: cover;
+    height: 700px;
+    width: 100%;
+    object-position: center top;
+    vertical-align: bottom;
+}
+.matome {
+    flex-direction: column;
+    flex-basis:50%;
+    padding: 40px 96px 0;
+}
+.matome h2 {
+    border-bottom: 1px solid #0505056b;
+    margin-bottom: 16px;
+    padding-bottom:16px;
+}
+.zairyou dt {
+    /* border-bottom: 1px dotted #0505056b; */
+    font-size: 16px;
+    position: absolute;
+    text-align: left;
+}
+h2  {
+    font-size: 20px;
+}
+.zairyou dd {
+    text-align: right;
+    border-bottom: 1px dotted #0505056b;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+}
+.zairyou dd:last-child {
+    margin-bottom:24px;
+}
+.zairyou dl {
+    clear: both;
+}
+.tukurikata li {
+    border-bottom: 1px dotted #0505056b;
+    font-size: 16px;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+}
+
+.content2 {
+    font-size: 16px;
+    margin-bottom:24px;
+}
+@media screen and (max-width: 960px) {
+    .contents {
+        padding: 0 30px;
+    }
+    .recipe {
+        font-size: 110%;
+    }
+    .list {
+        display: block;
+    }
+    .list li {
+        width: 100%;
+    }
+    .list li img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .maine {
+        display: block;
+    }
+    .maine #cooking1 img {
+        height: auto;
+        object-position: center top;
+        vertical-align: bottom;
+    }
+    .matome {
+        padding: 10px 20px;
+    }
+    .tukurikata li {
+        margin-left: 16px;
+        margin-right: 10px; 
+    }
+    
+}
