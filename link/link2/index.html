@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Sawarabi+Mincho&display=swap">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Wedding Party Invitation</title>
+  </head>
+  <body>
+    <header>
+      <div class="innerWrap">
+        <h1>
+          <img 
+          src="images/hero_text.png" 
+          srcset="images/hero_text.png 1x,images/hero_text@2x.png 2x"
+          alt="Welcome to Our Wedding Party">
+        </h1>
+        <nav>
+          <ul class="ffJosefin">
+            <li><a href="#msgArea">Message</a></li>
+            <li><a href="#dateArea">Date</a></li>
+            <li><a href="#formArea">Form</a></li>
+          </ul>
+        </nav>
+        <p class="scroll ffJosefin">Scroll<br><img src="images/bar.png" alt=""></p>
+      </div>
+    </header>
+    <main>
+      <section class="msgSec" id="msgArea">
+        <div class="innerWrap">
+          <h2 class="ffJosefin">Message</h2>
+          <p>
+            テキストテキストテキスト<br>
+           テキストテキストテキストテキストテキスト<br>
+          </p>
+          <p>
+            テキストテキストテキストテキストテキストテキストテキスト<br>
+            テキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>
+          </p>
+          <p class="illust"><img src="images/message_img.png" alt=""></p>
+        </div>
+      </section>
+      <section class="dateSec" id="dateArea">
+        <div class="innerWrap">
+          <h2 class="ffJosefin">Save the Date</h2>
+          <div class="layoutWrap">
+            <p><img src="images/date_img.jpg" alt=""></p>
+            <div>
+              <p class="dateDetailSec">
+                テキスト <span class="word1">テキスト</span><br>
+                <span class="word2">テキスト</span> <span class="word3">テキスト</span>
+              </p>
+              <section class="accessSec">
+                <h3 class="ffJosefin">Access</h3>
+                <p>テキストテキストテキスト<br>
+                  テキストテキストテキスト<br>
+                  XX-XXXX-XXXX<br>
+                </p>
+              </section>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="formSec" id="formArea">
+        <div class="innerWrap">
+          <h2 class="ffJosefin">RSVP</h2>
+          <form action="" method="">
+            <p class="attendRadio">
+              <label><input type="radio" name="attend" value="テキスト" checked="checked">テキスト</label>
+              <label><input type="radio" name="attend" value="テキスト">テキスト</label>
+            </p>
+            <p>
+              ご氏名<input type="text" name="user_name">
+            </p>
+            <p>
+              Eメールアドレス<input type="email" name="user_mail">
+            </p>
+            <p>
+              テキストテキスト
+              <select name="user_type">
+                <option value="テキスト">テキスト</option>
+                <option value="テキスト">テキスト</option>
+                <option value="テキスト">テキスト</option>
+              </select>
+            </p>
+            <p class="allergyCheck">
+              テキストテキスト<br>
+              <label><input type="checkbox" name="allergy" value="テキスト">テキスト</label>
+              <label><input type="checkbox" name="allergy" value="テキスト">テキスト</label>
+              <label><input type="checkbox" name="allergy" value="テキスト">テキスト</label>
+              <label><input type="checkbox" name="allergy" value="テキスト">テキスト</label>
+            </p>
+            <p>
+              テキスト
+              <textarea name="message"></textarea>
+            </p>
+            <p class="submitBtn">
+              <input type="submit" value="Send" class="ffJosefin">
+            </p>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="ffJosefin">
+      <p><small>©</small></p>
+    </footer>
+  </body>
+</html>
